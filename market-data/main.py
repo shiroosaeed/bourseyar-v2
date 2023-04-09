@@ -24,8 +24,6 @@ class MarketData:
                 company_id = data[0]
                 name = data[2]
                 namad = data[3]
-                if re.search("\d",namad):
-                    break
                 time = data[4]
                 first_price = data[5]
                 end_price = data[6]
